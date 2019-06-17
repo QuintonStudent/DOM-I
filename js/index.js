@@ -49,6 +49,21 @@ anchorCollection[2].textContent = 'Vision';
 anchorCollection[3].textContent = 'Features';
 anchorCollection[4].textContent = 'About';
 anchorCollection[5].textContent = 'Contact';
+let navCollection = document.querySelector('nav');
+
+// nav additions
+let appChild = document.createElement('a');
+appChild.textContent = 'appChild';
+let preChild = document.createElement('a');
+preChild.textContent = 'preChild';
+
+navCollection.appendChild(appChild);
+navCollection.prepend(preChild);
+
+// nav text color
+for(let i = 0; i <navCollection.children.length; i++) {
+  navCollection.children[i].style.color = 'green';
+}
 
 // cta
 let header1 = document.getElementsByTagName('h1');
