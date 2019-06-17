@@ -57,3 +57,27 @@ let btn = document.getElementsByTagName('button');
 btn[0].textContent = 'Get Started';
 let headerImg = document.getElementById('cta-img');
 headerImg.setAttribute('src', siteContent['cta']['img-src']);
+
+// main content
+let featuresHeader = document.querySelector('.top-content').firstElementChild.firstElementChild;
+featuresHeader.textContent = 'Features';
+let featuresContent = document.querySelector('.top-content').firstElementChild.lastElementChild;
+featuresContent.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let aboutHeader = document.querySelector('.top-content').lastElementChild.firstElementChild;
+aboutHeader.textContent = 'About';
+let aboutContent = document.querySelector('.top-content').lastElementChild.lastElementChild;
+aboutContent.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', siteContent['main-content']['middle-img-src']);
+let servicesHeader = document.querySelector('.bottom-content').firstElementChild.firstElementChild;
+servicesHeader.textContent = 'Services';
+let servicesContent = document.querySelector('.bottom-content').firstElementChild.lastElementChild;
+servicesContent.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let productHeader = document.querySelector('.bottom-content').children[1].firstElementChild;
+productHeader.textContent = 'Product';
+let productContent = document.querySelector('.bottom-content').children[1].lastElementChild;
+productContent.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let visionHeader = document.querySelector('.bottom-content').lastElementChild.firstElementChild;
+visionHeader.textContent = 'Vision';
+let visionContent = document.querySelector('.bottom-content').lastElementChild.lastElementChild;
+visionContent.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
